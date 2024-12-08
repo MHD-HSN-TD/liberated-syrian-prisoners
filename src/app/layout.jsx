@@ -1,7 +1,7 @@
 // import localFont from "next/font/local";
 import { Cairo } from 'next/font/google'
 import "./globals.css";
-import Footer from './components/Footer/Footer';
+import Footer from '../components/Footer/Footer';
 import { GoogleAnalytics } from '@next/third-parties/google'
 
 
