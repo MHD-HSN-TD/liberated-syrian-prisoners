@@ -12,7 +12,7 @@ const Footer = () => {
         imageHref: "",
         phone: "+963967586966",
         email: "info@spus.sy",
-        facebook: "https://www.facebook.com/mhammad.tadomori",
+        facebook: "https://www.facebook.com/mhammad.tadmori",
         linkedIn: false,
         telegram: "https://t.me/HasnTD",
         github: false,
