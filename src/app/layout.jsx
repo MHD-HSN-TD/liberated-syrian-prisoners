@@ -25,6 +25,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ar" data-theme="emerald" dir='RTL'>
+      <head>
+        <meta name="google-site-verification" content="FAb62nnQ0FioK9c_xRCZl2Rmv8sjfdZAErl5Bt3Iqhs" />
+      </head>
       <body
         className={`${cairo.className} antialiased  `}>
 
