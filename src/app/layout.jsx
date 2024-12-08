@@ -2,6 +2,8 @@
 import { Cairo } from 'next/font/google'
 import "./globals.css";
 import Footer from './components/Footer/Footer';
+import { GoogleAnalytics } from '@next/third-parties/google'
+
 
 
 // const geistSans = localFont({
@@ -26,6 +28,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ar" data-theme="emerald" dir='RTL'>
       <head>
+
         <meta name="google-site-verification" content="FAb62nnQ0FioK9c_xRCZl2Rmv8sjfdZAErl5Bt3Iqhs" />
       </head>
       <body
@@ -34,6 +37,7 @@ export default function RootLayout({ children }) {
         {children}
         <Footer></Footer>
       </body>
+      <GoogleAnalytics gaId="G-QGHJXFNX2H" />
     </html>
   );
 }
