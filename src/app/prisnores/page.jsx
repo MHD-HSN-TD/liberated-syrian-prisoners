@@ -12,7 +12,7 @@ export default function Home() {
       <div className="hero-overlay bg-opacity-75 "></div>
       <div className="hero-content text-neutral-content  text-center ">
         <div className="text-base max-w-xs lg:max-w-screen-xl ">
-          <h1 className="mb-5 text-5xl font-bold leading-relaxed"> اسماء المعتقلين <span className="text-green-600"> المحريين</span> بعون الله ثم المعارضة السورية   <span className="text-green-600"> الحرة</span></h1>
+          <h1 className="mb-5 lg:text-5xl text-3xl font-bold leading-relaxed"> اسماء المعتقلين <span className="text-green-600"> المحريين</span> بعون الله ثم المعارضة السورية   <span className="text-green-600"> الحرة</span></h1>
 
           <Table></Table>
         </div>

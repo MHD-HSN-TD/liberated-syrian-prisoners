@@ -141,7 +141,7 @@ const Table = () => {
 
     return (
         <div className="lg:overflow-x-hidden  overflow-x-scroll">
-            <table className="table table-lg ">
+            <table className="table table-auto ">
                 <thead>
                     <tr className="text-lg text-green-600">
                         <th></th>
@@ -150,10 +150,10 @@ const Table = () => {
                         <th>اسم الاب</th>
                         <th>اسم الام</th>
                         <th>مواليد</th>
-                        <th>مكان الاعتقال </th>
+                        <th>مكان الاعتقال (السجن) </th>
                     </tr>
                 </thead>
-                <tbody className="text-7xl text-white">
+                <tbody className="text-nowrap text-white">
                     {data.map(el =>
                         <tr key={el.id}>
                             <th>{el.id + 1}</th>

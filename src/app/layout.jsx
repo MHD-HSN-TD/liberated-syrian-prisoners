@@ -1,6 +1,7 @@
 // import localFont from "next/font/local";
 import { Cairo } from 'next/font/google'
 import "./globals.css";
+import Footer from './components/Footer/Footer';
 
 
 // const geistSans = localFont({
@@ -25,10 +26,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ar" data-theme="emerald" dir='RTL'>
       <body
-        className={`${cairo.className} antialiased  `}
-      >
+        className={`${cairo.className} antialiased  `}>
 
         {children}
+        <Footer></Footer>
       </body>
     </html>
   );
