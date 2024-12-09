@@ -28,8 +28,8 @@ const Footer = () => {
                 </Link>
                 <p className="font-bold">كل الحقوق محفوظة <span> ©</span>    08/12/2024  </p>
                 <div className="flex gap-3">
-                    <p className="font-bold"> لمزيد من التفاصيل : </p>
-                    <p className=""><a className="text-warning " href={`https://wa.me/963967586966`} target='_blank'> Eng. MHD Hasn AL-Khalil Tadmori </a></p>
+                    {/* <p className="font-bold"> لمزيد من التفاصيل : </p> */}
+                    <p className=""><a className="text-warning " href={`https://wa.me/963967586966`} target='_blank'> الحرية لشعبا العربي السوري </a></p>
                 </div>
             </div>
 

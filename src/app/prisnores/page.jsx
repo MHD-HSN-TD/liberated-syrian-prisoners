@@ -9,7 +9,9 @@ export default function Home() {
     changeNameHandler,
     loading,
     names,
+    namesNumber
   } = usePrison() //Hook pattern
+  console.log(names.length)
 
   return (
     <div>
@@ -31,13 +33,19 @@ export default function Home() {
             <h1 className="mb-5 lg:text-5xl text-3xl font-bold leading-relaxed"> اسماء المعتقلين <span className="text-green-600"> المحريين</span> بعون الله ثم المعارضة السورية   <span className="text-green-600"> الحرة</span></h1>
 
             <div className="  bg-white p-10 rounded-lg">
-              <div className="text-black py-10 text-2xl" >قم بادخال الاسم و اسم الاب والكنية لمحاولة ايجاد المحررين </div>
-              <div className="flex align-middle justify-around">
+              <div className="text-black py-10 text-2xl" >قم بادخال الاسم او اسم الاب اوالكنية لمحاولة ايجاد المحررين </div>
+
+              <span className="text-black py-4 lg:text-2xl text-lg px-2" >عدد الاسماء الموجودة الى الان هو</span>
+              <span className="text-red-700 lg:text-2xl text-lg " >{!namesNumber ? <span span className="loading loading-bars loading-xs text-error mx-2"></span> : namesNumber}</span>
+
+
+
+              <div className="flex align-middle justify-around my-2">
                 <input
                   onChange={changeNameHandler}
                   type="text"
                   placeholder=" ادخل الاسم الكامل او الكنية"
-                  className="input input-bordered input-success w-1/2 max-w-xs text-red-600" />
+                  className="input input-bordered input-success lg:w-1/2  text-red-600 lg:text-lg text-xs" />
 
               </div>
 
