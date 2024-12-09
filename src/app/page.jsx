@@ -3,7 +3,7 @@ import Table from "../components/Table";
 import Link from "next/link";
 
 export default function Home() {
-  let header = `ان هذا الموقع هدقه الاساسي فقط لطمأنة  اخواننا الذين لديهم معتقلين في سجون النظام المجرم`
+  let header = `ان هذا الموقع هدفه الاساسي فقط لطمأنة  اخواننا الذين لديهم معتقلين في سجون النظام المجرم`
   return (
     <div
       className="hero min-h-lvh"
