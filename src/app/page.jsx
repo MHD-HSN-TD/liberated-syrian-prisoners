@@ -2,6 +2,13 @@ import Image from "next/image";
 import Table from "../components/Table";
 import Link from "next/link";
 
+
+export const metadata = {
+  title: "سوريـــة حــــرة",
+  description: "هذا الموقع يعرض اسماء المعتقلين المحررين بعد تحرير سورية من بطش الطاغية بشار",
+};
+
+
 export default function Home() {
   let header = `ان هذا الموقع هدفه الاساسي فقط لطمأنة  اخواننا الذين لديهم معتقلين في سجون النظام المجرم`
   return (
@@ -13,7 +20,7 @@ export default function Home() {
       <div className="hero-overlay bg-opacity-75"></div>
       <div className="hero-content text-neutral-content  text-center  ">
         <div className="text-base max-w-xs lg:max-w-screen-xl ">
-          <h1 className="mb-5 text-5xl font-bold leading-relaxed">أهلا بكم في موقع العثور على اسماء المعتقلين <span className="text-green-600"> المحريين</span> بعون الله ثم المعارضة السورية   <span className="text-green-600"> الحرة</span></h1>
+          <h1 className="mb-5 text-5xl font-bold leading-relaxed">أهلا بكم في موقع العثور على اسماء المعتقلين <span className="text-green-600"> المحررين</span> بعون الله ثم المعارضة السورية   <span className="text-green-600"> الحرة</span></h1>
           <p className="mb-5 text-2xl">
             {header}
           </p>

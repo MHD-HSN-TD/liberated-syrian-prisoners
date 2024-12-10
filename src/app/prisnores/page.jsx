@@ -4,6 +4,10 @@ import Table from "../../components/Table";
 import Link from "next/link";
 import { usePrison } from "@/Hooks/usePrison";
 
+export const metadata = {
+  title: "اسماء المعتقلين",
+  description: "اسماء المعتقلين في سجن صيدنايا....  سورية حرة",
+};
 export default function Home() {
   const {
     changeNameHandler,
@@ -35,7 +39,7 @@ export default function Home() {
             <div className="  bg-white p-10 rounded-lg">
               <div className="text-black py-10 text-2xl" >قم بادخال الاسم او اسم الاب اوالكنية لمحاولة ايجاد المحررين </div>
 
-              <span className="text-black py-4 lg:text-2xl text-lg px-2" >عدد الاسماء الموجودة الى الان هو</span>
+              <span className="text-black py-4 lg:text-2xl text-lg px-2" >عدد الاسماء المطابقة للبحث هو</span>
               <span className="text-red-700 lg:text-2xl text-lg " >{!namesNumber ? <span span className="loading loading-bars loading-xs text-error mx-2"></span> : namesNumber}</span>
 
 
