@@ -4,10 +4,10 @@ import Table from "../../components/Table";
 import Link from "next/link";
 import { usePrison } from "@/Hooks/usePrison";
 
-export const metadata = {
-  title: "اسماء المعتقلين",
-  description: "اسماء المعتقلين في سجن صيدنايا....  سورية حرة",
-};
+// export const metadata = {
+//   title: "اسماء المعتقلين",
+//   description: "اسماء المعتقلين في سجن صيدنايا....  سورية حرة",
+// };
 export default function Home() {
   const {
     changeNameHandler,
